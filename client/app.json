@@ -1,0 +1,15 @@
+{
+  "name": "openbracket",
+  "description": "An open tournament bracket with data sources from around the web",
+   "keywords": [
+    "bracket",
+    "tournament",
+    "material",
+    "react"
+  ],
+  "repository": "https://github.com/matthewdias/openbracket",
+  "env": {
+    "PRODUCTION": "true",
+    "NPM_CONFIG_PRODUCTION": "false"
+  }
+}
