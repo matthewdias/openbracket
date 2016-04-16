@@ -16,6 +16,10 @@ import Routes from './common/components/Routes';
 // Base styling
 import './common/base.css';
 
+//Touch Events for Material-UI
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+injectTapEventPlugin();
 
 // ID of the DOM element to mount app on
 const DOM_APP_EL_ID = 'app';

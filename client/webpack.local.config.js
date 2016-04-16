@@ -49,12 +49,5 @@ module.exports = {
   // Automatically transform files with these extensions
   resolve: {
     extensions: ['', '.js', '.jsx', '.css']
-  },
-
-  // Additional plugins for CSS post processing using postcss-loader
-  postcss: [
-    require('autoprefixer'), // Automatically include vendor prefixes
-    require('postcss-nested') // Enable nested rules, like in Sass
-  ]
-
+  }
 }
