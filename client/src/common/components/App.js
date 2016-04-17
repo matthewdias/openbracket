@@ -11,7 +11,13 @@ export default ({children}) => {
   	<MuiThemeProvider muiTheme={lightMuiTheme}>
     	<div>
     		<div>
-    			<AppBar title="[openbracket"/>
+    			<AppBar 
+    				title='[openbracket'
+    				titleStyle={{
+    					'font-weight': '300',
+    					'font-style': 'italic'
+    				}}
+    			/>
     		</div>
     		<div>
     	  {children}
