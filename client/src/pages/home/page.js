@@ -1,11 +1,19 @@
 import React from "react";
-import styles from "./style.css";
 import {ContestantCard} from "../../common/components/Contestant";
+
+const styles = {
+	container: {
+		width: '10px',
+		margin: 'auto'
+	}
+}
 
 export default class HomePage extends React.Component {
   render() {
     return (
-    	<ContestantCard />
+    	<div style={styles.container}>
+    		<ContestantCard />
+    	</div>
     );
   }
 }
